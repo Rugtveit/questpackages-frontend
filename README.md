@@ -41,4 +41,3 @@ or
 ## Note: The [Backend](https://github.com/Rugtveit/questpackages-backend) needs to be running for it to work! 
 
 
-
