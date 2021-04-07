@@ -18,7 +18,7 @@ export default function Package({ packageData, packageDetails }) {
   const router = useRouter();
   const [isShown, setIsShown] = useState(false);
 
-  if ( typeof packageDetails.description === 'undefined' || packageDetails.description === null)
+  if (packageDetails.description == 'null')
     packageDetails.description = "No Description Found";
 
   let buttonName = getButtonName(packageData.url);
